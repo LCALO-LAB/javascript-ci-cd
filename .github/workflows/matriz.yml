@@ -1,5 +1,5 @@
-name: Matriz ejecucion Node
-run-name: Ejcucion de Node
+name:   Matriz ejecucion Node
+run-name:   Ejcucion de Node
 on: [push]
 jobs:
   test:

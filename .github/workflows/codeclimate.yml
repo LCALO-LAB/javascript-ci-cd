@@ -1,14 +1,13 @@
 name: Code Climate Analysis
 run-name: Analysis of code
 on:
+
   push:
     branches:
       - main
-
 jobs:
   analysis:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
